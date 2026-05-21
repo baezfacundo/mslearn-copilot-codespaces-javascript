@@ -119,7 +119,14 @@ a:hover {
   text-align: center;
 }
 
+/* add an amazing animation to the social icons */  
+
 img.socialIcon {
   height: 30px;
   width: 30px;
+  transition: transform 0.3s ease;
+}
+
+img.socialIcon:hover {
+  transform: scale(1.2);  
 }
